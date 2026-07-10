@@ -1,0 +1,10 @@
+{
+  "fetched_at_utc": null,
+  "timezone": null,
+  "child": { "birthdate": null, "age_days": null },
+  "foods_tried": [],
+  "foods_tried_count": 0,
+  "food_catalog": [],
+  "food_lookback_days": 240,
+  "note": "Placeholder. This will be overwritten on the first successful Actions run."
+}
