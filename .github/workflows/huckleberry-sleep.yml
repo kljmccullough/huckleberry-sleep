@@ -50,7 +50,7 @@ jobs:
         run: |
           git config user.name "huckleberry-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/latest.json data/history.jsonl
+          git add data/latest.json data/history.jsonl data/food.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
