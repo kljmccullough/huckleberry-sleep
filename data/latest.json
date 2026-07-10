@@ -1,0 +1,10 @@
+{
+  "fetched_at_utc": null,
+  "timezone": null,
+  "child": { "birthdate": null, "age_days": null },
+  "sleep_intervals": [],
+  "huckleberry_sweetspot": null,
+  "lookback_days": 4,
+  "interval_count": 0,
+  "note": "Placeholder. This will be overwritten on the first successful Actions run."
+}
