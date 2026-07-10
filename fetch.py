@@ -22,9 +22,16 @@ Required environment variables (set as GitHub Actions secrets/vars):
 Optional environment variables (set as repo "Variables", not secrets):
   HB_TIMEZONE   IANA tz, e.g. "America/New_York". Default: account tz.
   HB_CHILD_INDEX   which child if you track more than one. Default: 0.
-  HB_LOOKBACK_DAYS   how many days of history to pull. Default: 14.
+  HB_LOOKBACK_DAYS   how many days of sleep history to pull. Default: 14.
+  HB_FOOD_LOOKBACK_DAYS   how many days of solids history to scan. Default: 240.
   HB_INCLUDE_NICKNAME   "1" to include the child's nickname in output.
                         Default: off (keeps output anonymous).
+
+Outputs written:
+  data/latest.json     latest sleep snapshot (overwritten each run)
+  data/history.jsonl   one sleep snapshot appended per run
+  data/food.json       solids: foods tried to date + curated catalog with
+                       allergen/age flags (overwritten each run)
 """
 
 from __future__ import annotations
@@ -85,6 +92,79 @@ def _local_iso(epoch_seconds: float, offset_minutes: float) -> str:
     return datetime.fromtimestamp(float(epoch_seconds), tz=tz).isoformat()
 
 
+def _norm(name: str) -> str:
+    """Normalize a food name for matching (lowercase, trimmed)."""
+    return " ".join(str(name).strip().lower().split())
+
+
+def _aggregate_foods_tried(solids_intervals) -> list[dict]:
+    """Roll up solids feed intervals into one row per distinct food.
+
+    Each interval has a `foods` map (SolidsFoodEntry) and an optional
+    `reactions` map. We aggregate by normalized food name, tracking how
+    many times it appeared, first/last dates, and any recorded reactions.
+    """
+    agg: dict[str, dict] = {}
+    for iv in solids_intervals:
+        foods = getattr(iv, "foods", None) or {}
+        reactions_map = getattr(iv, "reactions", None) or {}
+        reactions = [r for r, on in reactions_map.items() if on]
+        start = float(getattr(iv, "start", 0) or 0)
+        off = float(getattr(iv, "offset", 0) or 0)
+        when = _local_iso(start, off) if start else None
+        for entry in foods.values():
+            name = getattr(entry, "created_name", None)
+            if not name:
+                continue
+            key = _norm(name)
+            row = agg.get(key)
+            if row is None:
+                row = {
+                    "name": str(name).strip(),
+                    "source": getattr(entry, "source", None),
+                    "times_tried": 0,
+                    "first_tried_local": when,
+                    "last_tried_local": when,
+                    "reactions": set(),
+                }
+                agg[key] = row
+            row["times_tried"] += 1
+            if when:
+                if not row["first_tried_local"] or when < row["first_tried_local"]:
+                    row["first_tried_local"] = when
+                if not row["last_tried_local"] or when > row["last_tried_local"]:
+                    row["last_tried_local"] = when
+            row["reactions"].update(reactions)
+    out = []
+    for row in agg.values():
+        row["reactions"] = sorted(row["reactions"])
+        out.append(row)
+    out.sort(key=lambda r: (r["first_tried_local"] or "", r["name"].lower()))
+    return out
+
+
+def _shape_catalog(curated, tried_names: set[str]) -> list[dict]:
+    """Slim the curated food catalog and mark which foods are already tried."""
+    items = []
+    for food in curated:
+        name = getattr(food, "name", None)
+        if not name:
+            continue
+        cat = getattr(food, "category", None) or {}
+        categories = sorted([k for k, on in cat.items() if on])
+        items.append(
+            {
+                "name": str(name).strip(),
+                "is_common_allergen": bool(getattr(food, "is_common_allergen", False)),
+                "is_high_choking_hazard": bool(getattr(food, "is_high_choking_hazard", False)),
+                "recommended_age_months": getattr(food, "recommended_age_to_start", None),
+                "categories": categories,
+                "already_tried": _norm(name) in tried_names,
+            }
+        )
+    return items
+
+
 async def run() -> dict:
     import aiohttp
     from huckleberry_api import HuckleberryAPI
@@ -94,6 +174,7 @@ async def run() -> dict:
     tz_name = os.environ.get("HB_TIMEZONE", "").strip() or None
     child_index = _env_int("HB_CHILD_INDEX", 0)
     lookback_days = _env_int("HB_LOOKBACK_DAYS", 14)
+    food_lookback_days = _env_int("HB_FOOD_LOOKBACK_DAYS", 240)
     include_nickname = os.environ.get("HB_INCLUDE_NICKNAME", "").strip() == "1"
 
     async with aiohttp.ClientSession() as websession:
@@ -152,12 +233,13 @@ async def run() -> dict:
                 "sweet_spot_times": getattr(ss, "sweetSpotTimes", None),
             }
 
+        age_days = _age_days(birth_iso)
         snapshot = {
             "fetched_at_utc": now.replace(microsecond=0).isoformat(),
             "timezone": effective_tz,
             "child": {
                 "birthdate": birth_iso,
-                "age_days": _age_days(birth_iso),
+                "age_days": age_days,
             },
             "sleep_intervals": sleeps,
             "huckleberry_sweetspot": sweetspot,
@@ -167,20 +249,51 @@ async def run() -> dict:
         if include_nickname:
             snapshot["child"]["nickname"] = getattr(child_ref, "nickname", None)
 
-        return snapshot
+        # ---- Solids / food ----
+        food_start = now - timedelta(days=food_lookback_days)
+        feed_intervals = await api.list_feed_intervals(
+            child_uid, start_time=food_start, end_time=now
+        )
+        solids = [iv for iv in feed_intervals if getattr(iv, "mode", None) == "solids"]
+        foods_tried = _aggregate_foods_tried(solids)
+        tried_names = {_norm(r["name"]) for r in foods_tried}
+
+        try:
+            curated = await api.list_solids_curated_foods()
+        except Exception as err:  # noqa: BLE001 - catalog is best-effort
+            print(f"WARN: could not load curated food catalog: {err}")
+            curated = []
+        catalog = _shape_catalog(curated, tried_names)
+
+        food_snapshot = {
+            "fetched_at_utc": now.replace(microsecond=0).isoformat(),
+            "timezone": effective_tz,
+            "child": {"birthdate": birth_iso, "age_days": age_days},
+            "foods_tried": foods_tried,
+            "foods_tried_count": len(foods_tried),
+            "food_catalog": catalog,
+            "food_lookback_days": food_lookback_days,
+        }
+
+        return {"sleep": snapshot, "food": food_snapshot}
 
 
 def main() -> None:
-    snapshot = asyncio.run(run())
+    result = asyncio.run(run())
+    snapshot = result["sleep"]
+    food_snapshot = result["food"]
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     (DATA_DIR / "latest.json").write_text(json.dumps(snapshot, indent=2))
     with (DATA_DIR / "history.jsonl").open("a") as fh:
         fh.write(json.dumps(snapshot) + "\n")
+    (DATA_DIR / "food.json").write_text(json.dumps(food_snapshot, indent=2))
 
     print(
         f"OK: {snapshot['interval_count']} sleep intervals over "
-        f"{snapshot['lookback_days']} days; tz={snapshot['timezone']}."
+        f"{snapshot['lookback_days']} days; "
+        f"{food_snapshot['foods_tried_count']} foods tried; "
+        f"catalog {len(food_snapshot['food_catalog'])}; tz={snapshot['timezone']}."
     )
 
 
