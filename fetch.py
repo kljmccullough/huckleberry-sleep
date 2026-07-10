@@ -22,7 +22,7 @@ Required environment variables (set as GitHub Actions secrets/vars):
 Optional environment variables (set as repo "Variables", not secrets):
   HB_TIMEZONE   IANA tz, e.g. "America/New_York". Default: account tz.
   HB_CHILD_INDEX   which child if you track more than one. Default: 0.
-  HB_LOOKBACK_DAYS   how many days of history to pull. Default: 4.
+  HB_LOOKBACK_DAYS   how many days of history to pull. Default: 14.
   HB_INCLUDE_NICKNAME   "1" to include the child's nickname in output.
                         Default: off (keeps output anonymous).
 """
@@ -75,8 +75,13 @@ def _age_days(birth_iso: str | None) -> int | None:
 
 
 def _local_iso(epoch_seconds: float, offset_minutes: float) -> str:
-    """Convert an epoch-seconds timestamp + tz-offset-minutes to local ISO."""
-    tz = timezone(timedelta(minutes=offset_minutes))
+    """Convert an epoch-seconds timestamp + Huckleberry offset to local ISO.
+
+    Huckleberry stores `offset` in JavaScript getTimezoneOffset() convention:
+    minutes to SUBTRACT from UTC to get local time (e.g. Pacific Daylight = 420,
+    US Eastern = 300). So local = UTC - offset. We negate to build the tzinfo.
+    """
+    tz = timezone(timedelta(minutes=-offset_minutes))
     return datetime.fromtimestamp(float(epoch_seconds), tz=tz).isoformat()
 
 
@@ -88,7 +93,7 @@ async def run() -> dict:
     password = os.environ["HUCKLEBERRY_PASSWORD"]
     tz_name = os.environ.get("HB_TIMEZONE", "").strip() or None
     child_index = _env_int("HB_CHILD_INDEX", 0)
-    lookback_days = _env_int("HB_LOOKBACK_DAYS", 4)
+    lookback_days = _env_int("HB_LOOKBACK_DAYS", 14)
     include_nickname = os.environ.get("HB_INCLUDE_NICKNAME", "").strip() == "1"
 
     async with aiohttp.ClientSession() as websession:
@@ -133,7 +138,7 @@ async def run() -> dict:
                     "end_local": _local_iso(end_s, off),
                     "start_epoch": start_s,
                     "duration_min": round(dur_s / 60.0, 1),
-                    "tz_offset_min": off,
+                    "utc_offset_min": -off,
                 }
             )
         sleeps.sort(key=lambda r: r["start_epoch"])
