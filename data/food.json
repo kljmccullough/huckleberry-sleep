@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-10T21:12:50+00:00",
+  "fetched_at_utc": "2026-07-10T23:04:18+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -168,9 +168,9 @@
     {
       "name": "beans",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-05-13T13:19:26-07:00",
+      "last_tried_local": "2026-07-10T13:28:16-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -199,9 +199,9 @@
     {
       "name": "sausage",
       "source": "curated",
-      "times_tried": 20,
+      "times_tried": 21,
       "first_tried_local": "2026-05-13T13:19:26-07:00",
-      "last_tried_local": "2026-07-08T12:15:09-07:00",
+      "last_tried_local": "2026-07-10T13:28:16-07:00",
       "reactions": [
         "LOVED"
       ]
