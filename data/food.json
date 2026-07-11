@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-11T15:01:33+00:00",
+  "fetched_at_utc": "2026-07-11T17:05:03+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -252,9 +252,9 @@
     {
       "name": "pancake",
       "source": "curated",
-      "times_tried": 5,
+      "times_tried": 6,
       "first_tried_local": "2026-05-16T16:51:29.378000-07:00",
-      "last_tried_local": "2026-06-10T09:20:44-07:00",
+      "last_tried_local": "2026-07-11T09:01:59.319000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -401,9 +401,9 @@
     {
       "name": "bacon",
       "source": "curated",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-06-16T12:27:56-07:00",
-      "last_tried_local": "2026-06-16T12:27:56-07:00",
+      "last_tried_local": "2026-07-11T09:01:59.319000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -559,13 +559,35 @@
     {
       "name": "Italian sasuage",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-10T17:22:09.816000-07:00",
-      "last_tried_local": "2026-07-10T17:22:09.816000-07:00",
-      "reactions": []
+      "last_tried_local": "2026-07-11T09:01:59.319000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "spaghetti",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-11T09:01:59.319000-07:00",
+      "last_tried_local": "2026-07-11T09:01:59.319000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "tomato sauce",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-11T09:01:59.319000-07:00",
+      "last_tried_local": "2026-07-11T09:01:59.319000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
     }
   ],
-  "foods_tried_count": 56,
+  "foods_tried_count": 58,
   "food_catalog": [
     {
       "name": "avocado",
@@ -1247,7 +1269,7 @@
       "categories": [
         "grain"
       ],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "kale",
@@ -2505,7 +2527,7 @@
       "is_high_choking_hazard": false,
       "recommended_age_months": null,
       "categories": [],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "brown rice",
