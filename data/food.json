@@ -1,9 +1,9 @@
 {
-  "fetched_at_utc": "2026-07-10T23:04:18+00:00",
+  "fetched_at_utc": "2026-07-11T03:23:43+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
-    "age_days": 344
+    "age_days": 345
   },
   "foods_tried": [
     {
@@ -555,9 +555,17 @@
       "first_tried_local": "2026-07-10T11:05:39-07:00",
       "last_tried_local": "2026-07-10T11:05:39-07:00",
       "reactions": []
+    },
+    {
+      "name": "Italian sasuage",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-10T17:22:09.816000-07:00",
+      "last_tried_local": "2026-07-10T17:22:09.816000-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 55,
+  "foods_tried_count": 56,
   "food_catalog": [
     {
       "name": "avocado",
