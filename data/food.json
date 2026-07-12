@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-12T21:39:27+00:00",
+  "fetched_at_utc": "2026-07-12T22:37:55+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -431,9 +431,9 @@
     {
       "name": "taco beef",
       "source": "custom",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-06-18T12:22:09-07:00",
-      "last_tried_local": "2026-07-10T11:05:39-07:00",
+      "last_tried_local": "2026-07-12T14:43:22.416000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -521,9 +521,9 @@
     {
       "name": "cheddar cheese",
       "source": "curated",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-06T16:54:46.343000-07:00",
-      "last_tried_local": "2026-07-06T16:54:46.343000-07:00",
+      "last_tried_local": "2026-07-12T14:43:22.416000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -585,9 +585,39 @@
       "reactions": [
         "LOVED"
       ]
+    },
+    {
+      "name": "refried beans",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-12T14:43:22.416000-07:00",
+      "last_tried_local": "2026-07-12T14:43:22.416000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "salsa",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-12T14:43:22.416000-07:00",
+      "last_tried_local": "2026-07-12T14:43:22.416000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "sour cream",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-12T14:43:22.416000-07:00",
+      "last_tried_local": "2026-07-12T14:43:22.416000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
     }
   ],
-  "foods_tried_count": 58,
+  "foods_tried_count": 61,
   "food_catalog": [
     {
       "name": "avocado",
