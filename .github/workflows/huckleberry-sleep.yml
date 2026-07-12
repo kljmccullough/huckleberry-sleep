@@ -4,10 +4,15 @@ name: Fetch Huckleberry sleep data
 on:
   workflow_dispatch: {}
   schedule:
-    # Every 2 hours (UTC). GitHub cron is always UTC — adjust if you like.
-    # This gives the morning summary fresh overnight data and keeps
-    # daytime data current so "how the day is going" recommendations work.
-    - cron: "0 */2 * * *"
+    # Hourly (UTC). GitHub's free scheduled runs are "best-effort" and can be
+    # delayed or skipped, so we run every hour to shrink the gaps — especially
+    # important right before the 7am and 4:45pm Pacific briefings. The extra
+    # lines cluster runs just ahead of those two briefings for freshness.
+    - cron: "0 * * * *"
+    # Extra attempts before the 7am Pacific briefing (14:00 UTC / 15:00 UTC DST-safe):
+    - cron: "20,40 13,14 * * *"
+    # Extra attempts before the 4:45pm Pacific briefing (23:45 UTC / 00:45 UTC DST-safe):
+    - cron: "20,40 23,0 * * *"
 
 # Allow the job to commit the refreshed data back to the repo.
 permissions:
