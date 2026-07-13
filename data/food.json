@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-13T17:06:10+00:00",
+  "fetched_at_utc": "2026-07-13T19:11:28+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -168,11 +168,12 @@
     {
       "name": "beans",
       "source": "curated",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-07-10T13:28:16-07:00",
+      "last_tried_local": "2026-07-13T09:08:52-07:00",
       "reactions": [
-        "LOVED"
+        "LOVED",
+        "MEH"
       ]
     },
     {
@@ -441,9 +442,9 @@
     {
       "name": "white sausages",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-06-23T11:22:40-07:00",
-      "last_tried_local": "2026-06-23T11:22:40-07:00",
+      "last_tried_local": "2026-07-13T10:55:19-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -569,9 +570,9 @@
     {
       "name": "spaghetti",
       "source": "curated",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-11T09:01:59.319000-07:00",
-      "last_tried_local": "2026-07-11T09:01:59.319000-07:00",
+      "last_tried_local": "2026-07-13T10:55:19-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -615,9 +616,19 @@
       "reactions": [
         "LOVED"
       ]
+    },
+    {
+      "name": "lentil",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-13T09:08:52-07:00",
+      "last_tried_local": "2026-07-13T09:08:52-07:00",
+      "reactions": [
+        "MEH"
+      ]
     }
   ],
-  "foods_tried_count": 61,
+  "foods_tried_count": 62,
   "food_catalog": [
     {
       "name": "avocado",
@@ -1423,7 +1434,7 @@
       "categories": [
         "legume"
       ],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "ham",
