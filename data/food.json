@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-14T19:01:53+00:00",
+  "fetched_at_utc": "2026-07-14T20:49:36+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -137,11 +137,12 @@
     {
       "name": "pork",
       "source": "curated",
-      "times_tried": 10,
+      "times_tried": 11,
       "first_tried_local": "2026-05-04T13:27:22.296000-07:00",
-      "last_tried_local": "2026-07-03T10:51:33-07:00",
+      "last_tried_local": "2026-07-14T09:09:25-07:00",
       "reactions": [
-        "LOVED"
+        "LOVED",
+        "MEH"
       ]
     },
     {
@@ -158,9 +159,9 @@
     {
       "name": "chicken",
       "source": "curated",
-      "times_tried": 16,
+      "times_tried": 17,
       "first_tried_local": "2026-05-05T11:44:33-07:00",
-      "last_tried_local": "2026-07-07T09:10:52-07:00",
+      "last_tried_local": "2026-07-14T11:30:01-07:00",
       "reactions": [
         "LOVED"
       ]
