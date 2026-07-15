@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-15T18:54:38+00:00",
+  "fetched_at_utc": "2026-07-15T20:03:22+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -159,9 +159,9 @@
     {
       "name": "chicken",
       "source": "curated",
-      "times_tried": 18,
+      "times_tried": 19,
       "first_tried_local": "2026-05-05T11:44:33-07:00",
-      "last_tried_local": "2026-07-15T09:10:37-07:00",
+      "last_tried_local": "2026-07-15T12:33:51-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -190,9 +190,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 22,
+      "times_tried": 23,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-07-02T09:09:21-07:00",
+      "last_tried_local": "2026-07-15T12:33:51-07:00",
       "reactions": [
         "LOVED",
         "MEH"
