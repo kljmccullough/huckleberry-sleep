@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-17T16:59:21+00:00",
+  "fetched_at_utc": "2026-07-17T18:06:20+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -137,9 +137,9 @@
     {
       "name": "pork",
       "source": "curated",
-      "times_tried": 11,
+      "times_tried": 12,
       "first_tried_local": "2026-05-04T13:27:22.296000-07:00",
-      "last_tried_local": "2026-07-14T09:09:25-07:00",
+      "last_tried_local": "2026-07-17T09:10:17-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -169,9 +169,9 @@
     {
       "name": "beans",
       "source": "curated",
-      "times_tried": 6,
+      "times_tried": 7,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-07-15T09:10:37-07:00",
+      "last_tried_local": "2026-07-17T09:10:17-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -621,10 +621,11 @@
     {
       "name": "lentil",
       "source": "curated",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-13T09:08:52-07:00",
-      "last_tried_local": "2026-07-13T09:08:52-07:00",
+      "last_tried_local": "2026-07-17T09:10:17-07:00",
       "reactions": [
+        "LOVED",
         "MEH"
       ]
     }
