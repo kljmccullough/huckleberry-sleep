@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-19T22:41:02+00:00",
+  "fetched_at_utc": "2026-07-19T23:46:52+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -628,9 +628,39 @@
         "LOVED",
         "MEH"
       ]
+    },
+    {
+      "name": "fried chicken",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-19T09:15:03-07:00",
+      "last_tried_local": "2026-07-19T09:15:03-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "okra",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-19T09:15:03-07:00",
+      "last_tried_local": "2026-07-19T09:15:03-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "Sweet potato waffle",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-19T09:15:03-07:00",
+      "last_tried_local": "2026-07-19T09:15:03-07:00",
+      "reactions": [
+        "LOVED"
+      ]
     }
   ],
-  "foods_tried_count": 62,
+  "foods_tried_count": 65,
   "food_catalog": [
     {
       "name": "avocado",
