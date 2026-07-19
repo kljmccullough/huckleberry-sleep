@@ -1,9 +1,9 @@
 {
-  "fetched_at_utc": "2026-07-18T23:42:24+00:00",
+  "fetched_at_utc": "2026-07-19T00:10:21+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
-    "age_days": 352
+    "age_days": 353
   },
   "sleep_intervals": [
     {
