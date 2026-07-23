@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-23T15:01:43+00:00",
+  "fetched_at_utc": "2026-07-23T15:25:21+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -137,9 +137,9 @@
     {
       "name": "pork",
       "source": "curated",
-      "times_tried": 12,
+      "times_tried": 13,
       "first_tried_local": "2026-05-04T13:27:22.296000-07:00",
-      "last_tried_local": "2026-07-17T09:10:17-07:00",
+      "last_tried_local": "2026-07-23T08:08:38.620000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -190,9 +190,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 23,
+      "times_tried": 24,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-07-15T12:33:51-07:00",
+      "last_tried_local": "2026-07-23T08:08:38.620000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -659,9 +659,17 @@
       "reactions": [
         "LOVED"
       ]
+    },
+    {
+      "name": "prune",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-23T08:08:38.620000-07:00",
+      "last_tried_local": "2026-07-23T08:08:38.620000-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 65,
+  "foods_tried_count": 66,
   "food_catalog": [
     {
       "name": "avocado",
@@ -851,7 +859,7 @@
       "categories": [
         "fruit"
       ],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "green bean",
