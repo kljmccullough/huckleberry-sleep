@@ -1,18 +1,11 @@
 {
-  "fetched_at_utc": "2026-07-23T18:58:31+00:00",
+  "fetched_at_utc": "2026-07-23T20:11:21+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
     "age_days": 357
   },
   "sleep_intervals": [
-    {
-      "start_local": "2026-07-09T12:47:00-07:00",
-      "end_local": "2026-07-09T15:07:47.260000-07:00",
-      "start_epoch": 1783626420.0,
-      "duration_min": 140.8,
-      "utc_offset_min": -420.0
-    },
     {
       "start_local": "2026-07-09T18:09:00-07:00",
       "end_local": "2026-07-10T05:45:52.125000-07:00",
@@ -229,5 +222,5 @@
     "sweet_spot_times": {}
   },
   "lookback_days": 14,
-  "interval_count": 31
+  "interval_count": 30
 }
