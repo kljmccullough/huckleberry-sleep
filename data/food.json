@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-23T20:11:21+00:00",
+  "fetched_at_utc": "2026-07-23T21:56:27+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -667,9 +667,39 @@
       "first_tried_local": "2026-07-23T08:08:38.620000-07:00",
       "last_tried_local": "2026-07-23T08:08:38.620000-07:00",
       "reactions": []
+    },
+    {
+      "name": "bbq rib",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-23T13:35:30.456000-07:00",
+      "last_tried_local": "2026-07-23T13:35:30.456000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "collard greens",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-23T13:35:30.456000-07:00",
+      "last_tried_local": "2026-07-23T13:35:30.456000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "mashed potatoes",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-23T13:35:30.456000-07:00",
+      "last_tried_local": "2026-07-23T13:35:30.456000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
     }
   ],
-  "foods_tried_count": 66,
+  "foods_tried_count": 69,
   "food_catalog": [
     {
       "name": "avocado",
