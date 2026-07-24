@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-24T00:11:23+00:00",
+  "fetched_at_utc": "2026-07-24T01:45:54+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -697,9 +697,29 @@
       "reactions": [
         "LOVED"
       ]
+    },
+    {
+      "name": "bbq baked beans",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-23T18:21:04.010000-07:00",
+      "last_tried_local": "2026-07-23T18:21:04.010000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "pork carnitas",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-23T18:21:04.010000-07:00",
+      "last_tried_local": "2026-07-23T18:21:04.010000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
     }
   ],
-  "foods_tried_count": 69,
+  "foods_tried_count": 71,
   "food_catalog": [
     {
       "name": "avocado",
