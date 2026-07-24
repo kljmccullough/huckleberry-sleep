@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-24T20:10:11+00:00",
+  "fetched_at_utc": "2026-07-24T21:55:38+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -671,9 +671,9 @@
     {
       "name": "bbq rib",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-23T13:35:30.456000-07:00",
-      "last_tried_local": "2026-07-23T13:35:30.456000-07:00",
+      "last_tried_local": "2026-07-24T12:30:05-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -681,9 +681,9 @@
     {
       "name": "collard greens",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-23T13:35:30.456000-07:00",
-      "last_tried_local": "2026-07-23T13:35:30.456000-07:00",
+      "last_tried_local": "2026-07-24T12:30:05-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -701,9 +701,9 @@
     {
       "name": "bbq baked beans",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-23T18:21:04.010000-07:00",
-      "last_tried_local": "2026-07-23T18:21:04.010000-07:00",
+      "last_tried_local": "2026-07-24T12:30:05-07:00",
       "reactions": [
         "LOVED"
       ]
