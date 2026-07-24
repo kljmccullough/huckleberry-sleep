@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-24T15:07:20+00:00",
+  "fetched_at_utc": "2026-07-24T18:10:56+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -169,9 +169,9 @@
     {
       "name": "beans",
       "source": "curated",
-      "times_tried": 7,
+      "times_tried": 8,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-07-17T09:10:17-07:00",
+      "last_tried_local": "2026-07-24T09:07:42.313000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -190,9 +190,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 24,
+      "times_tried": 25,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-07-23T08:08:38.620000-07:00",
+      "last_tried_local": "2026-07-24T09:07:42.313000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -533,9 +533,9 @@
     {
       "name": "corn",
       "source": "curated",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-06T16:54:46.343000-07:00",
-      "last_tried_local": "2026-07-06T16:54:46.343000-07:00",
+      "last_tried_local": "2026-07-24T09:07:42.313000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -717,9 +717,19 @@
       "reactions": [
         "LOVED"
       ]
+    },
+    {
+      "name": "chicken tinga",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-24T09:07:42.313000-07:00",
+      "last_tried_local": "2026-07-24T09:07:42.313000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
     }
   ],
-  "foods_tried_count": 71,
+  "foods_tried_count": 72,
   "food_catalog": [
     {
       "name": "avocado",
