@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-27T04:02:34+00:00",
+  "fetched_at_utc": "2026-07-27T05:42:09+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -68,9 +68,9 @@
     {
       "name": "waffle",
       "source": "curated",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-04-04T09:33:01.221000-07:00",
-      "last_tried_local": "2026-06-19T08:10:23-07:00",
+      "last_tried_local": "2026-07-26T06:56:10-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -190,9 +190,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 26,
+      "times_tried": 27,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-07-25T11:14:05.334000-07:00",
+      "last_tried_local": "2026-07-26T12:00:07-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -201,9 +201,9 @@
     {
       "name": "sausage",
       "source": "curated",
-      "times_tried": 21,
+      "times_tried": 22,
       "first_tried_local": "2026-05-13T13:19:26-07:00",
-      "last_tried_local": "2026-07-10T13:28:16-07:00",
+      "last_tried_local": "2026-07-26T06:56:10-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -543,9 +543,9 @@
     {
       "name": "hamburger",
       "source": "curated",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-06T16:54:46.343000-07:00",
-      "last_tried_local": "2026-07-06T16:54:46.343000-07:00",
+      "last_tried_local": "2026-07-26T12:00:07-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -727,9 +727,19 @@
       "reactions": [
         "LOVED"
       ]
+    },
+    {
+      "name": "nectarine",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-07-26T12:00:07-07:00",
+      "last_tried_local": "2026-07-26T12:00:07-07:00",
+      "reactions": [
+        "LOVED"
+      ]
     }
   ],
-  "foods_tried_count": 72,
+  "foods_tried_count": 73,
   "food_catalog": [
     {
       "name": "avocado",
@@ -1949,7 +1959,7 @@
       "categories": [
         "fruit"
       ],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "muesli",
