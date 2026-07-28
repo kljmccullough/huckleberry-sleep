@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-28T00:11:13+00:00",
+  "fetched_at_utc": "2026-07-28T01:30:03+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -169,9 +169,9 @@
     {
       "name": "beans",
       "source": "curated",
-      "times_tried": 8,
+      "times_tried": 9,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-07-24T09:07:42.313000-07:00",
+      "last_tried_local": "2026-07-27T17:17:00.682000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -190,9 +190,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 27,
+      "times_tried": 28,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-07-26T12:00:07-07:00",
+      "last_tried_local": "2026-07-27T17:17:00.682000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -543,9 +543,9 @@
     {
       "name": "hamburger",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-07-06T16:54:46.343000-07:00",
-      "last_tried_local": "2026-07-26T12:00:07-07:00",
+      "last_tried_local": "2026-07-27T17:17:00.682000-07:00",
       "reactions": [
         "LOVED"
       ]
