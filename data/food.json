@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-31T13:38:54+00:00",
+  "fetched_at_utc": "2026-07-31T15:29:20+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -201,9 +201,9 @@
     {
       "name": "sausage",
       "source": "curated",
-      "times_tried": 23,
+      "times_tried": 24,
       "first_tried_local": "2026-05-13T13:19:26-07:00",
-      "last_tried_local": "2026-07-29T09:01:08-07:00",
+      "last_tried_local": "2026-07-30T16:30:53-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -354,9 +354,9 @@
     {
       "name": "noodles",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-06-02T12:00:59-07:00",
-      "last_tried_local": "2026-06-05T11:27:36-07:00",
+      "last_tried_local": "2026-07-30T16:30:53-07:00",
       "reactions": [
         "LOVED"
       ]
