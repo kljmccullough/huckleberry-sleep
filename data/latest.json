@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-08T16:19:56+00:00",
+  "fetched_at_utc": "2026-08-08T17:20:25+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -213,8 +213,8 @@
   "huckleberry_sweetspot": {
     "selected_nap_day": 2.0,
     "sweet_spot_times": {
-      "2": 1786206600.0,
-      "1": 1786212000.0
+      "1": 1786212000.0,
+      "2": 1786206600.0
     }
   },
   "lookback_days": 14,
