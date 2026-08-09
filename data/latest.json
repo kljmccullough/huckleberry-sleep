@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-09T16:21:50+00:00",
+  "fetched_at_utc": "2026-08-09T17:21:15+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -208,15 +208,22 @@
       "start_epoch": 1786236660.0,
       "duration_min": 681.8,
       "utc_offset_min": -420.0
+    },
+    {
+      "start_local": "2026-08-09T08:22:00-07:00",
+      "end_local": "2026-08-09T09:02:00-07:00",
+      "start_epoch": 1786288920.0,
+      "duration_min": 40.0,
+      "utc_offset_min": -420.0
     }
   ],
   "huckleberry_sweetspot": {
     "selected_nap_day": 2.0,
     "sweet_spot_times": {
-      "2": 1786288800.0,
-      "1": 1786294800.0
+      "1": 1786311600.0,
+      "2": 1786303800.0
     }
   },
   "lookback_days": 14,
-  "interval_count": 29
+  "interval_count": 30
 }
