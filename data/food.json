@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-12T00:00:36+00:00",
+  "fetched_at_utc": "2026-08-12T01:02:23+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -159,9 +159,9 @@
     {
       "name": "chicken",
       "source": "curated",
-      "times_tried": 20,
+      "times_tried": 21,
       "first_tried_local": "2026-05-05T11:44:33-07:00",
-      "last_tried_local": "2026-07-28T16:20:54-07:00",
+      "last_tried_local": "2026-08-11T14:00:49-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -180,9 +180,9 @@
     {
       "name": "cherry",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-08-11T07:00:05-07:00",
+      "last_tried_local": "2026-08-11T14:00:49-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -433,9 +433,9 @@
     {
       "name": "taco beef",
       "source": "custom",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-06-18T12:22:09-07:00",
-      "last_tried_local": "2026-07-12T14:43:22.416000-07:00",
+      "last_tried_local": "2026-08-11T16:40:33-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -591,9 +591,9 @@
     {
       "name": "refried beans",
       "source": "custom",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-07-12T14:43:22.416000-07:00",
-      "last_tried_local": "2026-07-28T11:00:38-07:00",
+      "last_tried_local": "2026-08-11T14:00:49-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -787,9 +787,19 @@
       "reactions": [
         "LOVED"
       ]
+    },
+    {
+      "name": "polenta",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-08-11T16:40:33-07:00",
+      "last_tried_local": "2026-08-11T16:40:33-07:00",
+      "reactions": [
+        "LOVED"
+      ]
     }
   ],
-  "foods_tried_count": 78,
+  "foods_tried_count": 79,
   "food_catalog": [
     {
       "name": "avocado",
@@ -2503,7 +2513,7 @@
       "categories": [
         "grain"
       ],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "tortilla",
