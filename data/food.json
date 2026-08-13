@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-13T21:34:28+00:00",
+  "fetched_at_utc": "2026-08-13T22:30:39+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -38,10 +38,11 @@
     {
       "name": "oatmeal",
       "source": "curated",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-02-12T14:34:28-08:00",
-      "last_tried_local": "2026-05-01T12:40:53-07:00",
+      "last_tried_local": "2026-08-13T14:53:37.806000-07:00",
       "reactions": [
+        "LOVED",
         "MEH"
       ]
     },
@@ -159,9 +160,9 @@
     {
       "name": "chicken",
       "source": "curated",
-      "times_tried": 22,
+      "times_tried": 24,
       "first_tried_local": "2026-05-05T11:44:33-07:00",
-      "last_tried_local": "2026-08-12T13:48:09-07:00",
+      "last_tried_local": "2026-08-13T14:53:37.806000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -180,9 +181,9 @@
     {
       "name": "cherry",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-08-11T14:00:49-07:00",
+      "last_tried_local": "2026-08-13T07:00:39-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -513,9 +514,9 @@
     {
       "name": "zucchini",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-07-03T10:51:33-07:00",
-      "last_tried_local": "2026-07-28T16:20:54-07:00",
+      "last_tried_local": "2026-08-13T14:53:37.806000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -591,9 +592,9 @@
     {
       "name": "refried beans",
       "source": "custom",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-07-12T14:43:22.416000-07:00",
-      "last_tried_local": "2026-08-11T14:00:49-07:00",
+      "last_tried_local": "2026-08-13T07:00:39-07:00",
       "reactions": [
         "LOVED"
       ]
