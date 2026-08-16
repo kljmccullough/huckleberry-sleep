@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-16T15:11:18+00:00",
+  "fetched_at_utc": "2026-08-16T16:12:19+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -202,9 +202,9 @@
     {
       "name": "sausage",
       "source": "curated",
-      "times_tried": 26,
+      "times_tried": 27,
       "first_tried_local": "2026-05-13T13:19:26-07:00",
-      "last_tried_local": "2026-08-11T07:00:05-07:00",
+      "last_tried_local": "2026-08-16T08:36:07.201000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -732,9 +732,9 @@
     {
       "name": "nectarine",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-07-26T12:00:07-07:00",
-      "last_tried_local": "2026-08-08T16:57:02.706000-07:00",
+      "last_tried_local": "2026-08-16T08:36:07.201000-07:00",
       "reactions": [
         "LOVED"
       ]
