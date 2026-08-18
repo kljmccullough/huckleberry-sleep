@@ -1,9 +1,9 @@
 {
-  "fetched_at_utc": "2026-08-17T23:53:20+00:00",
+  "fetched_at_utc": "2026-08-18T00:37:33+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
-    "age_days": 382
+    "age_days": 383
   },
   "foods_tried": [
     {
@@ -138,9 +138,9 @@
     {
       "name": "pork",
       "source": "curated",
-      "times_tried": 16,
+      "times_tried": 17,
       "first_tried_local": "2026-05-04T13:27:22.296000-07:00",
-      "last_tried_local": "2026-08-16T14:30:46-07:00",
+      "last_tried_local": "2026-08-17T16:54:51.030000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -802,13 +802,21 @@
     {
       "name": "field peas",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-08-16T14:30:46-07:00",
-      "last_tried_local": "2026-08-16T14:30:46-07:00",
+      "last_tried_local": "2026-08-17T16:54:51.030000-07:00",
+      "reactions": []
+    },
+    {
+      "name": "cornbread",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-08-17T16:54:51.030000-07:00",
+      "last_tried_local": "2026-08-17T16:54:51.030000-07:00",
       "reactions": []
     }
   ],
-  "foods_tried_count": 80,
+  "foods_tried_count": 81,
   "food_catalog": [
     {
       "name": "avocado",
