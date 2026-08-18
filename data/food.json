@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-18T20:11:30+00:00",
+  "fetched_at_utc": "2026-08-18T21:13:42+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -191,9 +191,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 30,
+      "times_tried": 31,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-08-12T13:48:09-07:00",
+      "last_tried_local": "2026-08-18T13:59:05.534000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -722,9 +722,9 @@
     {
       "name": "chicken tinga",
       "source": "custom",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-07-24T09:07:42.313000-07:00",
-      "last_tried_local": "2026-08-17T14:28:15-07:00",
+      "last_tried_local": "2026-08-18T13:59:05.534000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -814,9 +814,17 @@
       "first_tried_local": "2026-08-17T16:54:51.030000-07:00",
       "last_tried_local": "2026-08-17T16:54:51.030000-07:00",
       "reactions": []
+    },
+    {
+      "name": "peas",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-08-18T13:59:05.534000-07:00",
+      "last_tried_local": "2026-08-18T13:59:05.534000-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 81,
+  "foods_tried_count": 82,
   "food_catalog": [
     {
       "name": "avocado",
@@ -926,7 +934,7 @@
       "categories": [
         "vegetable"
       ],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "pear",
