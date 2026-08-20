@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-20T21:18:19+00:00",
+  "fetched_at_utc": "2026-08-20T22:16:29+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -191,9 +191,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 32,
+      "times_tried": 33,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-08-18T16:31:17.892000-07:00",
+      "last_tried_local": "2026-08-20T14:57:13.141000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -802,9 +802,9 @@
     {
       "name": "field peas",
       "source": "custom",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-08-16T14:30:46-07:00",
-      "last_tried_local": "2026-08-19T13:44:43.631000-07:00",
+      "last_tried_local": "2026-08-20T14:57:13.141000-07:00",
       "reactions": []
     },
     {
@@ -822,9 +822,17 @@
       "first_tried_local": "2026-08-18T13:59:05.534000-07:00",
       "last_tried_local": "2026-08-19T13:44:43.631000-07:00",
       "reactions": []
+    },
+    {
+      "name": "butter chicken",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-08-20T14:57:13.141000-07:00",
+      "last_tried_local": "2026-08-20T14:57:13.141000-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 82,
+  "foods_tried_count": 83,
   "food_catalog": [
     {
       "name": "avocado",
