@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-21T19:18:48+00:00",
+  "fetched_at_utc": "2026-08-21T20:14:08+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -191,9 +191,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 33,
+      "times_tried": 34,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-08-20T14:57:13.141000-07:00",
+      "last_tried_local": "2026-08-21T12:26:48-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -722,9 +722,9 @@
     {
       "name": "chicken tinga",
       "source": "custom",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-07-24T09:07:42.313000-07:00",
-      "last_tried_local": "2026-08-19T13:44:43.631000-07:00",
+      "last_tried_local": "2026-08-21T12:26:48-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -802,9 +802,9 @@
     {
       "name": "field peas",
       "source": "custom",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-08-16T14:30:46-07:00",
-      "last_tried_local": "2026-08-20T14:57:13.141000-07:00",
+      "last_tried_local": "2026-08-21T12:26:48-07:00",
       "reactions": []
     },
     {
