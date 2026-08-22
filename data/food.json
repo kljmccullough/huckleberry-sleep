@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-22T04:22:06+00:00",
+  "fetched_at_utc": "2026-08-22T05:17:30+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -79,9 +79,9 @@
     {
       "name": "banana",
       "source": "curated",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-04-05T11:11:03.826000-07:00",
-      "last_tried_local": "2026-04-05T11:11:03.826000-07:00",
+      "last_tried_local": "2026-08-21T16:30:42-07:00",
       "reactions": [
         "MEH"
       ]
@@ -160,9 +160,9 @@
     {
       "name": "chicken",
       "source": "curated",
-      "times_tried": 24,
+      "times_tried": 25,
       "first_tried_local": "2026-05-05T11:44:33-07:00",
-      "last_tried_local": "2026-08-13T14:53:37.806000-07:00",
+      "last_tried_local": "2026-08-21T16:30:42-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -191,9 +191,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 34,
+      "times_tried": 35,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-08-21T12:26:48-07:00",
+      "last_tried_local": "2026-08-21T16:30:42-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -818,9 +818,9 @@
     {
       "name": "peas",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-08-18T13:59:05.534000-07:00",
-      "last_tried_local": "2026-08-19T13:44:43.631000-07:00",
+      "last_tried_local": "2026-08-21T16:30:42-07:00",
       "reactions": []
     },
     {
