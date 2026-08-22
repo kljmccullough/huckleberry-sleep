@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-22T23:34:44+00:00",
+  "fetched_at_utc": "2026-08-22T23:50:51+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -79,9 +79,9 @@
     {
       "name": "banana",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-04-05T11:11:03.826000-07:00",
-      "last_tried_local": "2026-08-21T16:30:42-07:00",
+      "last_tried_local": "2026-08-22T08:00:40-07:00",
       "reactions": [
         "MEH"
       ]
@@ -191,9 +191,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 35,
+      "times_tried": 37,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-08-21T16:30:42-07:00",
+      "last_tried_local": "2026-08-22T12:00:15-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -202,9 +202,9 @@
     {
       "name": "sausage",
       "source": "curated",
-      "times_tried": 30,
+      "times_tried": 31,
       "first_tried_local": "2026-05-13T13:19:26-07:00",
-      "last_tried_local": "2026-08-21T08:03:20.782000-07:00",
+      "last_tried_local": "2026-08-22T12:00:15-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -722,9 +722,9 @@
     {
       "name": "chicken tinga",
       "source": "custom",
-      "times_tried": 5,
+      "times_tried": 6,
       "first_tried_local": "2026-07-24T09:07:42.313000-07:00",
-      "last_tried_local": "2026-08-21T12:26:48-07:00",
+      "last_tried_local": "2026-08-22T12:00:15-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -818,17 +818,17 @@
     {
       "name": "peas",
       "source": "curated",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-08-18T13:59:05.534000-07:00",
-      "last_tried_local": "2026-08-21T16:30:42-07:00",
+      "last_tried_local": "2026-08-22T08:00:40-07:00",
       "reactions": []
     },
     {
       "name": "butter chicken",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-08-20T14:57:13.141000-07:00",
-      "last_tried_local": "2026-08-20T14:57:13.141000-07:00",
+      "last_tried_local": "2026-08-22T08:00:40-07:00",
       "reactions": []
     }
   ],
