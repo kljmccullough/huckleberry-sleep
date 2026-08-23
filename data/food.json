@@ -1,9 +1,9 @@
 {
-  "fetched_at_utc": "2026-08-22T23:50:51+00:00",
+  "fetched_at_utc": "2026-08-23T00:41:08+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
-    "age_days": 387
+    "age_days": 388
   },
   "foods_tried": [
     {
@@ -59,9 +59,9 @@
     {
       "name": "egg",
       "source": "curated",
-      "times_tried": 5,
+      "times_tried": 6,
       "first_tried_local": "2026-04-04T09:33:01.221000-07:00",
-      "last_tried_local": "2026-07-08T09:10:15-07:00",
+      "last_tried_local": "2026-08-22T17:17:22.613000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -202,9 +202,9 @@
     {
       "name": "sausage",
       "source": "curated",
-      "times_tried": 31,
+      "times_tried": 32,
       "first_tried_local": "2026-05-13T13:19:26-07:00",
-      "last_tried_local": "2026-08-22T12:00:15-07:00",
+      "last_tried_local": "2026-08-22T17:17:22.613000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -294,9 +294,9 @@
     {
       "name": "cheese",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-05-21T11:06:49-07:00",
-      "last_tried_local": "2026-05-22T11:38:33-07:00",
+      "last_tried_local": "2026-08-22T17:17:22.613000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -345,9 +345,9 @@
     {
       "name": "spinach",
       "source": "curated",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-05-25T17:30:25-07:00",
-      "last_tried_local": "2026-05-25T17:30:25-07:00",
+      "last_tried_local": "2026-08-22T17:17:22.613000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -514,9 +514,9 @@
     {
       "name": "zucchini",
       "source": "curated",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-07-03T10:51:33-07:00",
-      "last_tried_local": "2026-08-13T14:53:37.806000-07:00",
+      "last_tried_local": "2026-08-22T17:17:22.613000-07:00",
       "reactions": [
         "LOVED"
       ]
