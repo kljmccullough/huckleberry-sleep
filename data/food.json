@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-23T20:10:46+00:00",
+  "fetched_at_utc": "2026-08-23T21:12:00+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -722,9 +722,9 @@
     {
       "name": "chicken tinga",
       "source": "custom",
-      "times_tried": 6,
+      "times_tried": 7,
       "first_tried_local": "2026-07-24T09:07:42.313000-07:00",
-      "last_tried_local": "2026-08-22T12:00:15-07:00",
+      "last_tried_local": "2026-08-23T13:07:24-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -732,9 +732,9 @@
     {
       "name": "nectarine",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-07-26T12:00:07-07:00",
-      "last_tried_local": "2026-08-16T08:36:07.201000-07:00",
+      "last_tried_local": "2026-08-23T13:07:24-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -830,9 +830,17 @@
       "first_tried_local": "2026-08-20T14:57:13.141000-07:00",
       "last_tried_local": "2026-08-22T08:00:40-07:00",
       "reactions": []
+    },
+    {
+      "name": "tortilla",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-08-23T13:07:24-07:00",
+      "last_tried_local": "2026-08-23T13:07:24-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 83,
+  "foods_tried_count": 84,
   "food_catalog": [
     {
       "name": "avocado",
@@ -2556,7 +2564,7 @@
       "categories": [
         "grain"
       ],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "quesadilla",
