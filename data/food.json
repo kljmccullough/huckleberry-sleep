@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-25T20:17:03+00:00",
+  "fetched_at_utc": "2026-08-25T21:17:41+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -27,9 +27,9 @@
     {
       "name": "carrot",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-02-07T15:14:18-08:00",
-      "last_tried_local": "2026-08-24T14:42:43.408000-07:00",
+      "last_tried_local": "2026-08-25T13:59:49.732000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -181,9 +181,9 @@
     {
       "name": "cherry",
       "source": "curated",
-      "times_tried": 7,
+      "times_tried": 8,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-08-19T13:44:43.631000-07:00",
+      "last_tried_local": "2026-08-25T13:59:49.732000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -404,9 +404,9 @@
     {
       "name": "bacon",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-06-16T12:27:56-07:00",
-      "last_tried_local": "2026-07-11T09:01:59.319000-07:00",
+      "last_tried_local": "2026-08-25T13:59:49.732000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -692,9 +692,9 @@
     {
       "name": "mashed potatoes",
       "source": "custom",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-07-23T13:35:30.456000-07:00",
-      "last_tried_local": "2026-08-24T14:42:43.408000-07:00",
+      "last_tried_local": "2026-08-25T13:59:49.732000-07:00",
       "reactions": [
         "LOVED"
       ]
