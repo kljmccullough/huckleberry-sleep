@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-25T23:38:41+00:00",
+  "fetched_at_utc": "2026-08-25T23:55:40+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -160,9 +160,9 @@
     {
       "name": "chicken",
       "source": "curated",
-      "times_tried": 25,
+      "times_tried": 26,
       "first_tried_local": "2026-05-05T11:44:33-07:00",
-      "last_tried_local": "2026-08-21T16:30:42-07:00",
+      "last_tried_local": "2026-08-25T16:45:40.522000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -692,9 +692,9 @@
     {
       "name": "mashed potatoes",
       "source": "custom",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-07-23T13:35:30.456000-07:00",
-      "last_tried_local": "2026-08-25T13:59:49.732000-07:00",
+      "last_tried_local": "2026-08-25T16:45:40.522000-07:00",
       "reactions": [
         "LOVED"
       ]
