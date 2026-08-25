@@ -1,9 +1,9 @@
 {
-  "fetched_at_utc": "2026-08-24T21:19:06+00:00",
+  "fetched_at_utc": "2026-08-25T15:05:55+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
-    "age_days": 389
+    "age_days": 390
   },
   "foods_tried": [
     {
@@ -27,9 +27,9 @@
     {
       "name": "carrot",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-02-07T15:14:18-08:00",
-      "last_tried_local": "2026-04-23T12:10:09-07:00",
+      "last_tried_local": "2026-08-24T14:42:43.408000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -692,9 +692,9 @@
     {
       "name": "mashed potatoes",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-23T13:35:30.456000-07:00",
-      "last_tried_local": "2026-07-23T13:35:30.456000-07:00",
+      "last_tried_local": "2026-08-24T14:42:43.408000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -712,9 +712,9 @@
     {
       "name": "pork carnitas",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-07-23T18:21:04.010000-07:00",
-      "last_tried_local": "2026-07-23T18:21:04.010000-07:00",
+      "last_tried_local": "2026-08-24T14:42:43.408000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -838,9 +838,17 @@
       "first_tried_local": "2026-08-23T13:07:24-07:00",
       "last_tried_local": "2026-08-23T13:07:24-07:00",
       "reactions": []
+    },
+    {
+      "name": "egg bite",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-08-24T14:42:43.408000-07:00",
+      "last_tried_local": "2026-08-24T14:42:43.408000-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 84,
+  "foods_tried_count": 85,
   "food_catalog": [
     {
       "name": "avocado",
