@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-26T16:09:40+00:00",
+  "fetched_at_utc": "2026-08-26T18:49:25+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -59,9 +59,9 @@
     {
       "name": "egg",
       "source": "curated",
-      "times_tried": 6,
+      "times_tried": 7,
       "first_tried_local": "2026-04-04T09:33:01.221000-07:00",
-      "last_tried_local": "2026-08-22T17:17:22.613000-07:00",
+      "last_tried_local": "2026-08-26T08:17:34-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -202,9 +202,9 @@
     {
       "name": "sausage",
       "source": "curated",
-      "times_tried": 32,
+      "times_tried": 33,
       "first_tried_local": "2026-05-13T13:19:26-07:00",
-      "last_tried_local": "2026-08-22T17:17:22.613000-07:00",
+      "last_tried_local": "2026-08-26T08:17:34-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -294,9 +294,9 @@
     {
       "name": "cheese",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-05-21T11:06:49-07:00",
-      "last_tried_local": "2026-08-22T17:17:22.613000-07:00",
+      "last_tried_local": "2026-08-26T08:17:34-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -345,9 +345,9 @@
     {
       "name": "spinach",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-05-25T17:30:25-07:00",
-      "last_tried_local": "2026-08-22T17:17:22.613000-07:00",
+      "last_tried_local": "2026-08-26T08:17:34-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -514,9 +514,9 @@
     {
       "name": "zucchini",
       "source": "curated",
-      "times_tried": 5,
+      "times_tried": 6,
       "first_tried_local": "2026-07-03T10:51:33-07:00",
-      "last_tried_local": "2026-08-22T17:17:22.613000-07:00",
+      "last_tried_local": "2026-08-26T08:17:34-07:00",
       "reactions": [
         "LOVED"
       ]
