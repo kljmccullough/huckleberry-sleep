@@ -1,9 +1,9 @@
 {
-  "fetched_at_utc": "2026-08-26T21:27:21+00:00",
+  "fetched_at_utc": "2026-08-27T02:23:49+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
-    "age_days": 391
+    "age_days": 392
   },
   "foods_tried": [
     {
@@ -160,9 +160,9 @@
     {
       "name": "chicken",
       "source": "curated",
-      "times_tried": 26,
+      "times_tried": 27,
       "first_tried_local": "2026-05-05T11:44:33-07:00",
-      "last_tried_local": "2026-08-25T16:45:40.522000-07:00",
+      "last_tried_local": "2026-08-26T14:20:21-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -181,9 +181,9 @@
     {
       "name": "cherry",
       "source": "curated",
-      "times_tried": 8,
+      "times_tried": 9,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-08-25T13:59:49.732000-07:00",
+      "last_tried_local": "2026-08-26T14:20:21-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -846,9 +846,17 @@
       "first_tried_local": "2026-08-24T14:42:43.408000-07:00",
       "last_tried_local": "2026-08-25T09:17:05.617000-07:00",
       "reactions": []
+    },
+    {
+      "name": "edamame",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-08-26T14:20:21-07:00",
+      "last_tried_local": "2026-08-26T14:20:21-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 85,
+  "foods_tried_count": 86,
   "food_catalog": [
     {
       "name": "avocado",
@@ -2170,7 +2178,7 @@
       "categories": [
         "legume"
       ],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "soybean",
