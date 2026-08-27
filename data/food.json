@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-08-27T13:18:56+00:00",
+  "fetched_at_utc": "2026-08-27T22:57:48+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -79,9 +79,9 @@
     {
       "name": "banana",
       "source": "curated",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-04-05T11:11:03.826000-07:00",
-      "last_tried_local": "2026-08-25T09:17:05.617000-07:00",
+      "last_tried_local": "2026-08-27T14:45:42-07:00",
       "reactions": [
         "MEH"
       ]
@@ -325,9 +325,9 @@
     {
       "name": "pasta",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-05-25T17:30:25-07:00",
-      "last_tried_local": "2026-06-11T11:25:31-07:00",
+      "last_tried_local": "2026-08-27T14:45:42-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -850,9 +850,9 @@
     {
       "name": "edamame",
       "source": "curated",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-08-26T14:20:21-07:00",
-      "last_tried_local": "2026-08-26T14:20:21-07:00",
+      "last_tried_local": "2026-08-27T14:45:42-07:00",
       "reactions": []
     }
   ],
