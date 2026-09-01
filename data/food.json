@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-01T12:19:43+00:00",
+  "fetched_at_utc": "2026-09-01T17:03:21+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -842,9 +842,9 @@
     {
       "name": "egg bite",
       "source": "custom",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-08-24T14:42:43.408000-07:00",
-      "last_tried_local": "2026-08-25T09:17:05.617000-07:00",
+      "last_tried_local": "2026-09-01T07:33:18-07:00",
       "reactions": []
     },
     {
