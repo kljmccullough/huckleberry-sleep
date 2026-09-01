@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-01T20:17:23+00:00",
+  "fetched_at_utc": "2026-09-01T22:53:44+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -138,9 +138,9 @@
     {
       "name": "pork",
       "source": "curated",
-      "times_tried": 19,
+      "times_tried": 20,
       "first_tried_local": "2026-05-04T13:27:22.296000-07:00",
-      "last_tried_local": "2026-08-27T14:45:42-07:00",
+      "last_tried_local": "2026-09-01T13:42:17.974000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -882,9 +882,9 @@
     {
       "name": "pot pie filling",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-08-31T13:00:25-07:00",
-      "last_tried_local": "2026-08-31T13:00:25-07:00",
+      "last_tried_local": "2026-09-01T13:42:17.974000-07:00",
       "reactions": []
     }
   ],
