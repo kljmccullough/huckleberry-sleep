@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-03T17:02:50+00:00",
+  "fetched_at_utc": "2026-09-03T19:30:06+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -170,9 +170,9 @@
     {
       "name": "beans",
       "source": "curated",
-      "times_tried": 11,
+      "times_tried": 12,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-09-02T11:38:05.457000-07:00",
+      "last_tried_local": "2026-09-03T11:30:01-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -191,9 +191,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 38,
+      "times_tried": 39,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-09-02T11:38:05.457000-07:00",
+      "last_tried_local": "2026-09-03T11:30:01-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -712,9 +712,9 @@
     {
       "name": "pork carnitas",
       "source": "custom",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-07-23T18:21:04.010000-07:00",
-      "last_tried_local": "2026-08-24T14:42:43.408000-07:00",
+      "last_tried_local": "2026-09-03T11:30:01-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -842,9 +842,9 @@
     {
       "name": "egg bite",
       "source": "custom",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-08-24T14:42:43.408000-07:00",
-      "last_tried_local": "2026-09-01T07:33:18-07:00",
+      "last_tried_local": "2026-09-03T10:54:15.453000-07:00",
       "reactions": []
     },
     {
