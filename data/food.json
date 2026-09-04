@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-04T18:41:32+00:00",
+  "fetched_at_utc": "2026-09-04T21:09:12+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -170,9 +170,9 @@
     {
       "name": "beans",
       "source": "curated",
-      "times_tried": 12,
+      "times_tried": 13,
       "first_tried_local": "2026-05-08T11:30:52-07:00",
-      "last_tried_local": "2026-09-03T11:30:01-07:00",
+      "last_tried_local": "2026-09-04T11:35:05-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -712,9 +712,9 @@
     {
       "name": "pork carnitas",
       "source": "custom",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-07-23T18:21:04.010000-07:00",
-      "last_tried_local": "2026-09-03T11:30:01-07:00",
+      "last_tried_local": "2026-09-04T11:35:05-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -886,9 +886,17 @@
       "first_tried_local": "2026-08-31T13:00:25-07:00",
       "last_tried_local": "2026-09-01T13:42:17.974000-07:00",
       "reactions": []
+    },
+    {
+      "name": "bangers and potatoes",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-09-04T11:35:05-07:00",
+      "last_tried_local": "2026-09-04T11:35:05-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 90,
+  "foods_tried_count": 91,
   "food_catalog": [
     {
       "name": "avocado",
