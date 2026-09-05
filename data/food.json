@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-05T19:41:33+00:00",
+  "fetched_at_utc": "2026-09-05T21:46:45+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -59,9 +59,9 @@
     {
       "name": "egg",
       "source": "curated",
-      "times_tried": 8,
+      "times_tried": 9,
       "first_tried_local": "2026-04-04T09:33:01.221000-07:00",
-      "last_tried_local": "2026-08-27T07:30:12-07:00",
+      "last_tried_local": "2026-09-05T08:05:40-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -79,10 +79,11 @@
     {
       "name": "banana",
       "source": "curated",
-      "times_tried": 5,
+      "times_tried": 6,
       "first_tried_local": "2026-04-05T11:11:03.826000-07:00",
-      "last_tried_local": "2026-08-27T14:45:42-07:00",
+      "last_tried_local": "2026-09-05T11:15:50-07:00",
       "reactions": [
+        "LOVED",
         "MEH"
       ]
     },
@@ -138,9 +139,9 @@
     {
       "name": "pork",
       "source": "curated",
-      "times_tried": 21,
+      "times_tried": 22,
       "first_tried_local": "2026-05-04T13:27:22.296000-07:00",
-      "last_tried_local": "2026-09-02T11:38:05.457000-07:00",
+      "last_tried_local": "2026-09-05T11:15:50-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -160,9 +161,9 @@
     {
       "name": "chicken",
       "source": "curated",
-      "times_tried": 28,
+      "times_tried": 29,
       "first_tried_local": "2026-05-05T11:44:33-07:00",
-      "last_tried_local": "2026-08-31T13:00:25-07:00",
+      "last_tried_local": "2026-09-05T11:15:50-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -191,9 +192,9 @@
     {
       "name": "rice",
       "source": "curated",
-      "times_tried": 39,
+      "times_tried": 40,
       "first_tried_local": "2026-05-12T12:47:49-07:00",
-      "last_tried_local": "2026-09-03T11:30:01-07:00",
+      "last_tried_local": "2026-09-05T11:15:50-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -464,9 +465,9 @@
     {
       "name": "soy sauce",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-06-28T09:00:14-07:00",
-      "last_tried_local": "2026-06-28T09:00:14-07:00",
+      "last_tried_local": "2026-09-05T11:15:50-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -514,9 +515,9 @@
     {
       "name": "zucchini",
       "source": "curated",
-      "times_tried": 7,
+      "times_tried": 8,
       "first_tried_local": "2026-07-03T10:51:33-07:00",
-      "last_tried_local": "2026-08-27T07:30:12-07:00",
+      "last_tried_local": "2026-09-05T08:05:40-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -890,13 +891,33 @@
     {
       "name": "bangers and potatoes",
       "source": "custom",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-09-04T11:35:05-07:00",
-      "last_tried_local": "2026-09-04T11:35:05-07:00",
+      "last_tried_local": "2026-09-05T08:05:40-07:00",
       "reactions": []
+    },
+    {
+      "name": "bamboo shoots",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-09-05T11:15:50-07:00",
+      "last_tried_local": "2026-09-05T11:15:50-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "water chestnuts",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-09-05T11:15:50-07:00",
+      "last_tried_local": "2026-09-05T11:15:50-07:00",
+      "reactions": [
+        "LOVED"
+      ]
     }
   ],
-  "foods_tried_count": 91,
+  "foods_tried_count": 93,
   "food_catalog": [
     {
       "name": "avocado",
