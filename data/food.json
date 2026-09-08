@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-08T12:22:42+00:00",
+  "fetched_at_utc": "2026-09-08T16:53:58+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -843,9 +843,9 @@
     {
       "name": "egg bite",
       "source": "custom",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-08-24T14:42:43.408000-07:00",
-      "last_tried_local": "2026-09-03T10:54:15.453000-07:00",
+      "last_tried_local": "2026-09-08T09:03:13.249000-07:00",
       "reactions": []
     },
     {
@@ -915,9 +915,17 @@
       "reactions": [
         "LOVED"
       ]
+    },
+    {
+      "name": "blueberry",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-09-08T09:03:13.249000-07:00",
+      "last_tried_local": "2026-09-08T09:03:13.249000-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 93,
+  "foods_tried_count": 94,
   "food_catalog": [
     {
       "name": "avocado",
@@ -1177,7 +1185,7 @@
       "categories": [
         "fruit"
       ],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "cheese",
