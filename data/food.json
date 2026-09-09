@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-09T14:54:09+00:00",
+  "fetched_at_utc": "2026-09-09T17:09:47+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -843,9 +843,9 @@
     {
       "name": "egg bite",
       "source": "custom",
-      "times_tried": 5,
+      "times_tried": 6,
       "first_tried_local": "2026-08-24T14:42:43.408000-07:00",
-      "last_tried_local": "2026-09-08T09:03:13.249000-07:00",
+      "last_tried_local": "2026-09-09T09:15:14-07:00",
       "reactions": []
     },
     {
@@ -919,9 +919,9 @@
     {
       "name": "blueberry",
       "source": "curated",
-      "times_tried": 1,
+      "times_tried": 2,
       "first_tried_local": "2026-09-08T09:03:13.249000-07:00",
-      "last_tried_local": "2026-09-08T09:03:13.249000-07:00",
+      "last_tried_local": "2026-09-09T09:15:14-07:00",
       "reactions": []
     }
   ],
