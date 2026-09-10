@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-10T12:28:24+00:00",
+  "fetched_at_utc": "2026-09-10T16:44:57+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -59,9 +59,9 @@
     {
       "name": "egg",
       "source": "curated",
-      "times_tried": 9,
+      "times_tried": 10,
       "first_tried_local": "2026-04-04T09:33:01.221000-07:00",
-      "last_tried_local": "2026-09-05T08:05:40-07:00",
+      "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -315,9 +315,9 @@
     {
       "name": "potato",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-05-22T11:38:33-07:00",
-      "last_tried_local": "2026-06-08T13:06:48.462000-07:00",
+      "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -366,9 +366,9 @@
     {
       "name": "broccoli",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-06-03T12:15:35-07:00",
-      "last_tried_local": "2026-06-28T09:00:14-07:00",
+      "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -525,9 +525,9 @@
     {
       "name": "cheddar cheese",
       "source": "curated",
-      "times_tried": 2,
+      "times_tried": 3,
       "first_tried_local": "2026-07-06T16:54:46.343000-07:00",
-      "last_tried_local": "2026-07-12T14:43:22.416000-07:00",
+      "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -923,9 +923,25 @@
       "first_tried_local": "2026-09-08T09:03:13.249000-07:00",
       "last_tried_local": "2026-09-09T09:15:14-07:00",
       "reactions": []
+    },
+    {
+      "name": "kielbasa",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-09-10T07:40:58.337000-07:00",
+      "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
+      "reactions": []
+    },
+    {
+      "name": "sea island red peas",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-09-10T07:40:58.337000-07:00",
+      "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 94,
+  "foods_tried_count": 96,
   "food_catalog": [
     {
       "name": "avocado",
