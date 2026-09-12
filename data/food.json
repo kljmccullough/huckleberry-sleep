@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-12T21:05:41+00:00",
+  "fetched_at_utc": "2026-09-12T23:33:28+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -59,9 +59,9 @@
     {
       "name": "egg",
       "source": "curated",
-      "times_tried": 10,
+      "times_tried": 11,
       "first_tried_local": "2026-04-04T09:33:01.221000-07:00",
-      "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
+      "last_tried_local": "2026-09-12T16:27:07.610000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -203,9 +203,9 @@
     {
       "name": "sausage",
       "source": "curated",
-      "times_tried": 34,
+      "times_tried": 35,
       "first_tried_local": "2026-05-13T13:19:26-07:00",
-      "last_tried_local": "2026-08-27T07:30:12-07:00",
+      "last_tried_local": "2026-09-12T16:27:07.610000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -315,9 +315,9 @@
     {
       "name": "potato",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-05-22T11:38:33-07:00",
-      "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
+      "last_tried_local": "2026-09-12T16:27:07.610000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -367,9 +367,9 @@
     {
       "name": "broccoli",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-06-03T12:15:35-07:00",
-      "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
+      "last_tried_local": "2026-09-12T16:27:07.610000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -526,9 +526,9 @@
     {
       "name": "cheddar cheese",
       "source": "curated",
-      "times_tried": 3,
+      "times_tried": 4,
       "first_tried_local": "2026-07-06T16:54:46.343000-07:00",
-      "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
+      "last_tried_local": "2026-09-12T16:27:07.610000-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -940,9 +940,17 @@
       "first_tried_local": "2026-09-10T07:40:58.337000-07:00",
       "last_tried_local": "2026-09-10T07:40:58.337000-07:00",
       "reactions": []
+    },
+    {
+      "name": "plum",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-09-12T16:27:07.610000-07:00",
+      "last_tried_local": "2026-09-12T16:27:07.610000-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 96,
+  "foods_tried_count": 97,
   "food_catalog": [
     {
       "name": "avocado",
@@ -1720,7 +1728,7 @@
       "categories": [
         "fruit"
       ],
-      "already_tried": false
+      "already_tried": true
     },
     {
       "name": "pizza",
