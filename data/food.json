@@ -1,19 +1,11 @@
 {
-  "fetched_at_utc": "2026-09-15T23:18:05+00:00",
+  "fetched_at_utc": "2026-09-16T01:25:48+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
-    "age_days": 411
+    "age_days": 412
   },
   "foods_tried": [
-    {
-      "name": "pear",
-      "source": "curated",
-      "times_tried": 2,
-      "first_tried_local": "2026-01-18T17:08:08-08:00",
-      "last_tried_local": "2026-03-25T12:35:54-07:00",
-      "reactions": []
-    },
     {
       "name": "avocado",
       "source": "curated",
@@ -45,6 +37,14 @@
         "LOVED",
         "MEH"
       ]
+    },
+    {
+      "name": "pear",
+      "source": "curated",
+      "times_tried": 1,
+      "first_tried_local": "2026-03-25T12:35:54-07:00",
+      "last_tried_local": "2026-03-25T12:35:54-07:00",
+      "reactions": []
     },
     {
       "name": "sweet potato",
