@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-23T12:29:53+00:00",
+  "fetched_at_utc": "2026-09-23T17:34:16+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -920,9 +920,9 @@
     {
       "name": "blueberry",
       "source": "curated",
-      "times_tried": 4,
+      "times_tried": 5,
       "first_tried_local": "2026-09-08T09:03:13.249000-07:00",
-      "last_tried_local": "2026-09-11T14:27:50.251000-07:00",
+      "last_tried_local": "2026-09-23T09:30:32-07:00",
       "reactions": []
     },
     {
