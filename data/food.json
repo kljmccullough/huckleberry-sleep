@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-24T13:04:08+00:00",
+  "fetched_at_utc": "2026-09-24T17:51:59+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -203,9 +203,9 @@
     {
       "name": "sausage",
       "source": "curated",
-      "times_tried": 35,
+      "times_tried": 36,
       "first_tried_local": "2026-05-13T13:19:26-07:00",
-      "last_tried_local": "2026-09-12T16:27:07.610000-07:00",
+      "last_tried_local": "2026-09-24T10:15:20-07:00",
       "reactions": [
         "LOVED"
       ]
@@ -920,9 +920,9 @@
     {
       "name": "blueberry",
       "source": "curated",
-      "times_tried": 5,
+      "times_tried": 6,
       "first_tried_local": "2026-09-08T09:03:13.249000-07:00",
-      "last_tried_local": "2026-09-23T09:30:32-07:00",
+      "last_tried_local": "2026-09-24T10:15:20-07:00",
       "reactions": []
     },
     {
