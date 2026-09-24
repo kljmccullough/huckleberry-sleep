@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-24T18:03:03+00:00",
+  "fetched_at_utc": "2026-09-24T21:53:12+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -79,9 +79,9 @@
     {
       "name": "banana",
       "source": "curated",
-      "times_tried": 8,
+      "times_tried": 9,
       "first_tried_local": "2026-04-05T11:11:03.826000-07:00",
-      "last_tried_local": "2026-09-17T15:15:13-07:00",
+      "last_tried_local": "2026-09-24T14:07:55.190000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
@@ -948,9 +948,17 @@
       "first_tried_local": "2026-09-12T16:27:07.610000-07:00",
       "last_tried_local": "2026-09-12T16:27:07.610000-07:00",
       "reactions": []
+    },
+    {
+      "name": "empanada",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-09-24T14:07:55.190000-07:00",
+      "last_tried_local": "2026-09-24T14:07:55.190000-07:00",
+      "reactions": []
     }
   ],
-  "foods_tried_count": 97,
+  "foods_tried_count": 98,
   "food_catalog": [
     {
       "name": "avocado",
