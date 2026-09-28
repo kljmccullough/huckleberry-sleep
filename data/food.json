@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-28T07:55:51+00:00",
+  "fetched_at_utc": "2026-09-28T16:17:03+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
@@ -956,9 +956,29 @@
       "first_tried_local": "2026-09-24T14:07:55.190000-07:00",
       "last_tried_local": "2026-09-24T14:07:55.190000-07:00",
       "reactions": []
+    },
+    {
+      "name": "bangers",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-09-28T07:12:42.686000-07:00",
+      "last_tried_local": "2026-09-28T07:12:42.686000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
+    },
+    {
+      "name": "blueberry scone",
+      "source": "custom",
+      "times_tried": 1,
+      "first_tried_local": "2026-09-28T07:12:42.686000-07:00",
+      "last_tried_local": "2026-09-28T07:12:42.686000-07:00",
+      "reactions": [
+        "LOVED"
+      ]
     }
   ],
-  "foods_tried_count": 98,
+  "foods_tried_count": 100,
   "food_catalog": [
     {
       "name": "avocado",
