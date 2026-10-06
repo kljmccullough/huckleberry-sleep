@@ -1,22 +1,11 @@
 {
-  "fetched_at_utc": "2026-10-05T22:59:35+00:00",
+  "fetched_at_utc": "2026-10-06T02:43:58+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
-    "age_days": 431
+    "age_days": 432
   },
   "foods_tried": [
-    {
-      "name": "carrot",
-      "source": "curated",
-      "times_tried": 5,
-      "first_tried_local": "2026-02-07T15:14:18-08:00",
-      "last_tried_local": "2026-09-15T12:19:04.088000-07:00",
-      "reactions": [
-        "LOVED",
-        "MEH"
-      ]
-    },
     {
       "name": "oatmeal",
       "source": "curated",
@@ -103,6 +92,16 @@
       "last_tried_local": "2026-06-19T08:10:23-07:00",
       "reactions": [
         "LOVED",
+        "MEH"
+      ]
+    },
+    {
+      "name": "carrot",
+      "source": "curated",
+      "times_tried": 4,
+      "first_tried_local": "2026-04-23T12:10:09-07:00",
+      "last_tried_local": "2026-09-15T12:19:04.088000-07:00",
+      "reactions": [
         "MEH"
       ]
     },
