@@ -1,22 +1,11 @@
 {
-  "fetched_at_utc": "2026-10-10T19:52:14+00:00",
+  "fetched_at_utc": "2026-10-10T23:04:55+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
     "age_days": 436
   },
   "foods_tried": [
-    {
-      "name": "oatmeal",
-      "source": "curated",
-      "times_tried": 5,
-      "first_tried_local": "2026-02-12T14:34:28-08:00",
-      "last_tried_local": "2026-08-13T14:53:37.806000-07:00",
-      "reactions": [
-        "LOVED",
-        "MEH"
-      ]
-    },
     {
       "name": "pear",
       "source": "curated",
@@ -61,6 +50,17 @@
       "times_tried": 9,
       "first_tried_local": "2026-04-05T11:11:03.826000-07:00",
       "last_tried_local": "2026-09-24T14:07:55.190000-07:00",
+      "reactions": [
+        "LOVED",
+        "MEH"
+      ]
+    },
+    {
+      "name": "oatmeal",
+      "source": "curated",
+      "times_tried": 4,
+      "first_tried_local": "2026-04-05T11:11:03.826000-07:00",
+      "last_tried_local": "2026-08-13T14:53:37.806000-07:00",
       "reactions": [
         "LOVED",
         "MEH"
