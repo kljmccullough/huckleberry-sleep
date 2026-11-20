@@ -1,19 +1,11 @@
 {
-  "fetched_at_utc": "2026-11-20T18:07:41+00:00",
+  "fetched_at_utc": "2026-11-20T21:05:06+00:00",
   "timezone": "America/Los_Angeles",
   "child": {
     "birthdate": "2025-07-31",
     "age_days": 477
   },
   "foods_tried": [
-    {
-      "name": "pear",
-      "source": "curated",
-      "times_tried": 1,
-      "first_tried_local": "2026-03-25T12:35:54-07:00",
-      "last_tried_local": "2026-03-25T12:35:54-07:00",
-      "reactions": []
-    },
     {
       "name": "sweet potato",
       "source": "curated",
@@ -977,7 +969,7 @@
       ]
     }
   ],
-  "foods_tried_count": 100,
+  "foods_tried_count": 99,
   "food_catalog": [
     {
       "name": "avocado",
@@ -1097,7 +1089,7 @@
       "categories": [
         "fruit"
       ],
-      "already_tried": true
+      "already_tried": false
     },
     {
       "name": "greek yoghurt",
